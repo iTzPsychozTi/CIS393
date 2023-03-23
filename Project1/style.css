@@ -1,0 +1,96 @@
+:root
+{
+    
+}
+
+body
+{
+    background-color: #4E6E81;
+}
+
+h1
+{
+    text-align: center;
+    margin: 40px 0px -10px 0px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+
+div
+{
+    position: relative;
+    padding: 20px 40px;
+}
+
+img
+{
+    width: 100px;
+    height: 100px;
+}
+
+th
+{
+    padding: 50px;
+    text-align: center;
+}
+
+td
+{
+    text-align: center;
+}
+
+table.moes
+{
+    margin: 0px 40px;
+}
+table.chikfila
+{
+    margin: 0px 40px;
+}
+div
+{
+    position: relative;
+    text-align: center;
+    padding: 20px 70px;
+}
+
+div > button
+{
+    text-align: center;
+    position: relative;
+    border: 10px solid;
+    margin: 30px 300px 50px;
+    padding: 20px 70px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button.moes
+{
+    background-color: #F1DBBF;
+    border-color: #698269;
+    color: #AA5656;
+}
+
+button.chik-fil-a
+{
+    border-color: #EB455F;
+    background-color: #EDDBC0;
+    color: #E0144C;
+}
+
+button.marketplace-deli
+{
+    border-color: #BAD7E9;
+    background-color: #FCFFE7;
+    color: #2B3467;
+}
+
+button.clean-plate
+{
+    border-color: #D09CFA;
+    background-color: #FFF5E4;
+    color: #865DFF;
+}

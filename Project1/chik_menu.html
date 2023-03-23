@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="menus.js"></script>
+    <title>OrderBU: Chik-fil-a</title>
+</head>
+<body>
+    <table class="chikfila">
+        <tr>
+            <th></th> <!--Picture-->
+            <th>Item</th>
+            <th>Description</th>
+            <th>Ingredients<th>
+            <th>Calories<th>
+            <th>Price<th>
+            <th></th> <!--Cart button-->
+        </tr>
+
+        <!--Chicken Sandwich-->
+        <tr>
+            <td>
+                <img src="chicken_sand.png" alt="chicken sandwich">
+            </td>
+            <td>Chicken sandwich</td>
+            <td>Classic chicken sandwich with tomatoes, mayo, and lettuce on a toasted bun</td>
+            <td>
+                <fieldset>
+                    <legend>Choose your toppings:</legend>
+                    <div>
+                        <input type="checkbox" name="ingredients" id="tomato">
+                        <label for="tomato">No tomatoes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="ingredients" id="mayo">
+                        <label for="mayo">No mayo</label>
+                    <div>
+                    </div>
+                        <input type="checkbox" name="ingredients" id="lettuce">
+                        <label for="lettuce">No lettuce</label>
+                    </div>
+                </fieldset>
+            </td>
+            <td>900</td>
+            <td>$3.99</td>
+            <td>
+                <button type="button">Add to cart</button>
+            </td>
+        </tr>
+
+        <!--Grilled chicken sandwich-->
+        <tr>
+            <td>
+                <img src="grilled_chick.png" alt="grilled chicken sandwich">
+            </td>
+            <td>Grilled Chicken Sandwich</td>
+            <td>Grilled chicken sandwich with tomatoes, bacon, mayo, and lettuce on a toasted bun</td>
+            <td>
+                <fieldset>
+                    <legend>Choose your toppings:</legend>
+                        <div>
+                            <input type="checkbox" name="ingridients2" id="tomatoes2">
+                            <label for="tomatoes2">No tomatoes</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="ingredients2" id="bacon">
+                            <label for="bacon">No bacon</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="ingredients2" id="mayo2">
+                            <label for="mayo2">No mayo</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="ingredients2" id="lettuce2">
+                            <label for="lettuce2">No lettuce</label>
+                        </div>
+                </fieldset>
+            </td>
+            <td>1000</td>
+            <td>$4.99</td>
+            <td>
+                <button type="button">Add to cart</button>
+            </td>
+        </tr>
+
+        <!--Milkshake-->
+        <tr>
+            <td>
+                <img src="milkshake.png" alt="milkshake">
+            </td>
+            <td>Milkshake</td>
+            <td>Milkshake of your choice topped with whip cream and a cherry</td>
+            <td>
+                <fieldset>
+                    <legend>Choose your flavor:</legend>
+                        <div>
+                            <input type="radio" name="drink" id="vanilla">
+                            <label for="vanilla">Vanilla milkshake</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="drink" id="chocolate">
+                            <label for="chocolate">Chocolate milkshake</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="drink" id="strawberry">
+                            <label for="strawberry">Strawberry milkshake</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="drink" id="oreo">
+                            <label for="oreo">Oreo milkshake</label>
+                        </div>
+                </fieldset>
+            </td>
+            <td style="margin-left: 1000px;">1100</td>
+            <td style="margin-left: 200px;">$7.99</td>
+            <td>
+                <button type="button">Add to cart</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
