@@ -3,9 +3,41 @@
     
 }
 
+header
+{
+    text-align: center;
+    padding: 20px;
+}
+
+ul
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li
+{
+    font-size: 32px;
+    margin-left: 10px;
+    float: left;
+}
+
 body
 {
     background-color: #4E6E81;
+}
+
+container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
 }
 
 h1
@@ -17,42 +49,12 @@ h1
     text-decoration: underline;
 }
 
-div
-{
-    position: relative;
-    padding: 20px 40px;
-}
-
-img
+img.items
 {
     width: 100px;
     height: 100px;
-}
-
-th
-{
-    padding: 50px;
-    text-align: center;
-}
-
-td
-{
-    text-align: center;
-}
-
-table.moes
-{
-    margin: 0px 40px;
-}
-table.chikfila
-{
-    margin: 0px 40px;
-}
-div
-{
-    position: relative;
-    text-align: center;
-    padding: 20px 70px;
+    margin-left: 120px;
+    margin-top: 20px;
 }
 
 div > button
