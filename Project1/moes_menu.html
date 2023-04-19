@@ -5,211 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="menus.js"></script>
     <title>OrderBU: Moes</title>
 </head>
 <body>
     <header>
-        <img style="width: 200px; height: 200px;" src="moes_logo.png" alt="Moes logo">
+        <img style="width: 200px; height: 200px; align-self: center; margin-right: 45px;" src="/Pictures/moes_logo.png" alt="Moes logo">
     </header>
-    <div>
+    
+    <p style="text-decoration: underline; text-align: center; font-size: 28px;">Items</p>
+    
+    <div class="horizontalContainer" id="border">
         <ul>
-            <li>Item</li>
-            <li>Protein</li>
-            <li>Toppings</li>
-            <li>Calories</li>
-            <li>Price</li>
+            <li><img class="pictures" src="/Pictures/burrito.png" alt="burrito">
+                Burrito</li>
+                
+            <li><img class="pictures" src="/Pictures/burrito_bowl.png" alt="bowl">
+                Burrito Bowl</li>
+                
+            <li><img class="pictures" src="/Pictures/quesadilla.png" alt="quesadilla">
+                Quesadilla</li>
+            
+            <li><img class="pictures" src="/Pictures/tacos.png" alt="tacos">
+                Tacos</li>
+            
+            <li><img class="pictures" src="/Pictures/nachos.png" alt="nachos">
+                Nachos</li>
         </ul>
     </div>
-
-        <div class="container">
-            <img class="items" src="burrito.png" alt="burrito">
-            <fieldset>
-                <legend>Select your protein</legend>
-                <div>
-                    <input type="radio" name="protein" id="beef1">
-                    <label for="beef1">Beef</label>
-                </div>
-                <div>
-                    <input type="radio" name="protein" id="chicken1">
-                    <label for="chicken1">Chicken</label>
-                </div>
-                <div>    
-                    <input type="radio" name="protein" id="steak1">
-                    <label for="steak1">Steak</label>
-                </div>
-                <div>    
-                    <input type="radio" name="protein" id="none1">
-                    <label for="none1">None</label>
-                </div>
-            </fieldset>
-        </div>
-        <div class="container">
-            <img class="items" src="burrito_bowl.png" alt="burrito bowl">
-        </div>
-        <div>
-            <img class="items" src="quesadilla.png" alt="quesadilla">
-        </div>
-        <p>Burrito</p>
-
-        <!--Food options-->
-        <!--Burrito-->
-                <!--Protein options-->
-            </td>
-            <td>
-                <!--Ingredient options-->
-                <fieldset>
-                    <legend>Select your ingredients</legend>
-
-                    <div>
-                        <input type="checkbox" name="ingredient" id="lettuce">
-                        <label for="lettuce">Lettuce</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="ingredient" id="cheese">
-                        <label for="cheese">Cheese</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="ingredient" id="pico">
-                        <label for="pico">Pico de gallo</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="ingredient" id="corn">
-                        <label for="corn">Corn</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="ingredient" id="cilantro">
-                        <label for="cilantro">Cilantro</label>
-                    </div>
-                </fieldset>
-            </td>
-            <td>990-1140</td>
-            <td style="margin-left: 100px;">$7.99</td>
-            <td>
-                <button type="button">Add to cart</button>
-            </td>
-        </tr>
-
-        <!--Bowl-->
-        <tr>
-            <td>
-                
-            </td>
-            <td>Burrito bowl</td>
-            <td>
-                <!--Protein options-->
-                <fieldset>
-                    <legend>Select your protein</legend>
-                    <div>
-                        <input type="radio" name="protein2" id="beef2">
-                        <label for="beef2">Beef</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="protein2" id="chicken2">
-                        <label for="chicken2">Chicken</label>
-                    </div>
-                    <div>    
-                        <input type="radio" name="protein2" id="steak2">
-                        <label for="steak2">Steak</label>
-                    </div>
-                    <div>    
-                        <input type="radio" name="protein2" id="none2">
-                        <label for="none2">None</label>
-                    </div>
-                </fieldset>
-            </td>
-            <td>
-                 <!--Ingredient options-->
-                 <fieldset>
-                    <legend>Select your ingredients</legend>
-                    <div>
-                        <input type="checkbox" name="ingredient" id="lettuce2">
-                        <label for="lettuce2">Lettuce</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="ingredient" id="cheese2">
-                        <label for="cheese2">Cheese</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="ingredient" id="pico2">
-                        <label for="pico2">Pico de gallo</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="ingredient" id="corn2">
-                        <label for="corn2">Corn</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="ingredient" id="cilantro2">
-                        <label for="cilantro2">Cilantro</label>
-                    </div>
-                </fieldset>
-            </td>
-            <td>1020-1100 calories</td>
-            <td>$9.99</td>
-            <td>
-                <button type="button">Add to cart</button>
-            </td>
-        </tr>
-
-        <!--Quesadilla-->
-        <tr>
-            <td>
-                
-            </td>
-            <td>Quesadilla</td>
-            <td>
-                <!--Protein options-->
-                <fieldset>
-                    <legend>Select your protein</legend>
-                    <div>
-                        <input type="radio" name="protein" id="beef3">
-                        <label for="beef3">Beef</label>
-                    </div>
-                    <div>
-                        <input type="radio" name="protein" id="chicken3">
-                        <label for="chicken3">Chicken</label>
-                    </div>
-                    <div>    
-                        <input type="radio" name="protein" id="steak3">
-                        <label for="steak3">Steak</label>
-                    </div>
-                    <div>    
-                        <input type="radio" name="protein" id="none3">
-                        <label for="none3">None</label>
-                    </div>
-                </fieldset>
-            </td>
-            <td>
-                <!--Ingredient options-->
-                <fieldset>
-                    <legend>Select your ingredients</legend>
-
-                    <div>
-                        <input type="checkbox" name="ingredient" id="lettuce3">
-                        <label for="lettuce3">Lettuce</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="ingredient" id="cheese3">
-                        <label for="cheese3">Cheese</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="ingredient" id="pico3">
-                        <label for="pico3">Pico de gallo</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="ingredient" id="corn3">
-                        <label for="corn3">Corn</label>
-                    </div>
-                    <div>
-                        <input type="checkbox" name="ingredient" id="cilantro3">
-                        <label for="cilantro3">Cilantro</label>
-                    </div>
-                </fieldset>
-            </td>
-            <td>1100-1170</td>
-            <td>$10.99</td>
-            <td>
-                <button type="button">Add to cart</button>
-            </td>
-        </tr>
 </body>
 </html>
