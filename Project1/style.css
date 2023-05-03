@@ -1,7 +1,15 @@
-/* :root
+:root
 {
-    
-} */
+    /* Chik-fil-a global variables */
+    --chik_bg_color: #EDDBC0;
+    --chik_border_color: #EB455F;
+    --chik_font_color: #E0144C;
+
+    /* Moes global variables */
+    --moes_bg_color: #F1DBBF;
+    --moes_border_color: #698269;
+    --moes_font_color: #AA5656;
+}
 
 header
 {
@@ -12,7 +20,8 @@ header
 
 img.pictures:hover
 {
-    border: 1px solid black;
+    border: 1px solid;
+    border-color: inherit;
 }
 
 ul
@@ -27,6 +36,7 @@ ul
 
 li
 {
+    position: relative;
     font-size: 20px;
     margin: 20px;
     float: left;
@@ -34,7 +44,7 @@ li
 
 body
 {
-    background-color: #4E6E81;
+    background-color: inherit;
 }
 
 .verticalContainer
@@ -77,6 +87,7 @@ img.pictures
     height: 80px;
     margin-top: 20px;
     margin-left: 20px;
+    position: relative;
 }
 
 div > button 
@@ -94,19 +105,19 @@ div > button
 
 #moes
 {
-    background-color: #F1DBBF;
-    border-color: #698269;
-    color: #AA5656;
+    background-color: var(--moes_bg_color);
+    border-color: var(--moes_border_color);
+    color: var(--moes_font_color);
 }
 
 #chik-fil-a
 {
-    border-color: #EB455F;
-    background-color: #EDDBC0;
-    color: #E0144C;
+    border-color: var(--chik_border_color);
+    background-color: var(--chik_bg_color);
+    color: var(--chik_font_color);
 }
 
-#marketplace-deli
+/* #marketplace-deli
 {
     border-color: #BAD7E9;
     background-color: #FCFFE7;
@@ -118,4 +129,4 @@ div > button
     border-color: #D09CFA;
     background-color: #FFF5E4;
     color: #865DFF;
-}
+} */
